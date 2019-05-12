@@ -121,7 +121,6 @@ export default class TimeInput extends React.Component {
         <span>minutes(s)</span>
         <input className='seconds' id='seconds' type='number' min='0' max='59' placeholder='0' onChange={event => this.updateSecondsValue(event)} required />
         <span>seconds(s)</span>
-        <button type='submit' onClick={(event) => this.handleSubmit(event, this.state.daysValue, this.state.hoursValue, this.state.minutesValue)}>Set Timer</button>
         <div>Total Seconds:{this.state.totalSeconds > 0 ? this.state.totalSeconds : 'Countdown Expired'}</div>
         <div>{timeDisplay}</div>
         <button type='submit' onClick={() => this.handleStart(this.state.running)}>{startBtn}</button>
