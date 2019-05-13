@@ -5,7 +5,35 @@
 }
 
 .app {
-  max-width: 1000px;
+  max-width: 700px;
   margin: auto;
-  background-color: rgb(194, 194, 194);
+  background-color: #bebebe;
 }
+
+.app-header {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  padding: 40px;
+}
+
+.timeInputContainer {
+  background-color: #ececec;
+  text-align: center;
+  padding: 40px;
+}
+.timeInputContainer input {
+  width: 55px;
+  text-align: right;
+}
+.timeInputContainer .totalSecondsDisplay {
+  font-size: 12px;
+  padding: 40px;
+}
+.timeInputContainer .timeDisplay {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 40px;
+}
+
+/*# sourceMappingURL=main.css.map */
