@@ -6,8 +6,9 @@
 
 .app {
   max-width: 700px;
-  margin: auto;
-  background-color: rgb(190, 190, 190);
+  margin: 100px auto;
+  background-color: #1D3557; //#05668D
+  border-radius: 15px;
 }
 
 .app-header {
@@ -15,12 +16,15 @@
   font-weight: bold;
   text-align: center;
   padding: 40px;
+  color: #F1FAEE;
 }
 
 .timeInputContainer {
-  background-color: rgb(238, 238, 238);
+  background-color: #457B9D; // #028090
+  color: #F1FAEE;
   text-align: center;
   padding: 40px;
+  border-radius: 0px 0px 15px 15px;
   input {
     width: 55px;
     text-align: right;
@@ -40,5 +44,10 @@
     border: 1px solid lightgray;
     border-radius: 3px;
     padding: 5px 10px;
+    color: #05668D; 
+  }
+  .bidNote {
+    font-size: 12px;
+    padding-top: 20px;
   }
 }

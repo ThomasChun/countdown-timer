@@ -122,19 +122,20 @@ export default class TimeInput extends React.Component {
     return (
       <div className='timeInputContainer'>
         <input className='days' id='days' type='number' min='0' placeholder='0' onChange={event => this.updateDaysValue(event)} required />
-        <span> day(s)</span>
+        <span> day(s) </span>
         <input className='hours' id='hours' type='number' min='0' max='24' placeholder='0' onChange={event => this.updateHoursValue(event)} required />
-        <span> hours(s)</span>
+        <span> hours(s) </span>
         <input className='minutes' id='minutes' type='number' min='0' max='59' placeholder='0' onChange={event => this.updateMinutesValue(event)} required />
-        <span> minutes(s)</span>
+        <span> minutes(s) </span>
         <input className='seconds' id='seconds' type='number' min='0' max='59' placeholder='0' onChange={event => this.updateSecondsValue(event)} required />
-        <span> seconds(s)</span>
+        <span> seconds(s) </span>
         <div className='timeDisplay'>{timeDisplay}</div>
         <div className='btnContainer'>
         <button type='submit' onClick={() => this.handleStart(this.state.running)}>{startBtn}</button>
         <button type='submit' onClick={() => this.handleReset()}>Reset</button>
         <button type='submit' onClick={() => this.handleBid()}>Bid</button>
         </div>
+        <div className='bidNote'><b>Note: </b>If you click on bid with less than 10 seconds remaining. <br/> 10 seconds will be added to the timer.</div>
       </div>
     )
   }
