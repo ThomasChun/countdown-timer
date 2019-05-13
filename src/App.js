@@ -3,7 +3,7 @@ import InputTime from './time-input';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <header className="App-header">
         Countdown Timer App
       </header>
