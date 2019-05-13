@@ -31,5 +31,16 @@
   font-weight: bold;
   padding: 40px;
 }
+.timeInputContainer .btnContainer {
+  display: flex;
+  justify-content: center;
+}
+.timeInputContainer button {
+  margin: 0px 5px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
 
 /*# sourceMappingURL=main.css.map */
